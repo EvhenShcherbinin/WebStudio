@@ -1,0 +1,31 @@
+.portfolio-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 94px;
+    list-style: none;
+  }
+  
+  .portfolio-button {
+    border-radius: 4px;
+    border: none;
+    padding: 6px 22px;
+  }
+
+  .portfolio-button {
+    background-color: var(--portfolio-button);
+    color: var(--title-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    margin-right: 8px;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+    &:hover,
+    &:focus {
+    color: var(--background-color);
+    background-color: var(--accent-color);
+    }
+  }
+
