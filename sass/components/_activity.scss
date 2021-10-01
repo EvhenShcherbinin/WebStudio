@@ -1,0 +1,43 @@
+.activity {
+    @media screen and (max-width: 1199px) {
+      display: none;
+    }
+  }
+  
+  .activity__list {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .activity__item {
+    margin-right: 30px;
+  }
+  
+  .activity__item:last-child {
+    margin-right: 0;
+  }
+  
+  .activity__item {
+    position: relative;
+  }
+  
+  .activity__text {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #ffffff;
+    background: rgba(47, 48, 58, 0.8);
+    width: 100%;
+    height: 70px;
+  }

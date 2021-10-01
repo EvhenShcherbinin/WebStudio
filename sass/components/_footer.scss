@@ -1,0 +1,22 @@
+.footer {
+    background-color: #2f303a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  
+    @media screen and (max-width: 1199px) {
+      text-align: center;
+    }
+  }
+  
+  .footer-size {
+    @media screen and (min-width: 768px) {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  
+  .footer-container {
+    @media screen and (min-width: 1200px) {
+      display: flex;
+    }
+  }

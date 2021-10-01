@@ -1,19 +1,24 @@
-.logo__first {
+.nav__logo {
+    display: block;
+    color: #000000;
+  
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.17;
+  
+    margin-top: 16px;
+    margin-bottom: 16px;
+  
+    @media screen and(min-width:768px) {
+      margin-top: 26px;
+      margin-bottom: 26px;
+    }
+  
+    @media screen and(min-width:1200px) {
+    }
+  }
+  
+  .nav__logo-two {
     color: var(--accent-color);
-    font-family: "Raleway";
-    font-weight: 700px;
-    font-size: 26px;
-    line-height: 1.2;
-  }
-
-  .header__logo-header {
-    text-decoration: none;
-  }
-
-  .logo__second {
-    color: var(--title-color);
-    font-family: "Raleway";
-    font-weight: 700px;
-    font-size: 26px;
-    line-height: 1.2;
   }
